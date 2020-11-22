@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.adriantodt.speedometer.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

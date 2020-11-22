@@ -1,0 +1,13 @@
+{
+  "text.speedometer.velocityUnit.meters_per_second": "m/s",
+  "text.speedometer.velocityUnit.kilometers_per_hour": "km/h",
+  "text.speedometer.velocityUnit.miles_per_hour": "mph",
+  "text.autoconfig.speedometer.title": "Configuração do Velocímetro",
+  "text.autoconfig.speedometer.category.default": "Geral",
+  "text.autoconfig.speedometer.option.velocityUnit": "Unidade de Velocidade do Velocímetro",
+  "item.speedometer.speedometer": "Velocímetro",
+  "item.speedometer.speedometer.description": "§7§o\"Gotta go fast!\"§r",
+  "tooltip.speedometer.activate_speedometer": "§eUse para ativar§r",
+  "tooltip.speedometer.deactivate_speedometer": "§eUse para desativar§r",
+  "tooltip.speedometer.configure_speedometer": "§9Configurável§r"
+}

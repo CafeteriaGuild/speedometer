@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "speedometer",
+  "version": "${version}",
+  "name": "Speedometer Mod",
+  "description": "A simple but effective speed measuring tool!",
+  "authors": [
+    {
+      "name": "AdrianTodt",
+      "contact": {
+        "homepage": "https://twitter.com/AdrianTodt"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/speedometer",
+    "issues": "https://github.com/AdrianTodt/speedometer/issues",
+    "sources": "https://github.com/AdrianTodt/speedometer"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/speedometer/textures/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "net.adriantodt.speedometer.Speedometer"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "net.adriantodt.speedometer.SpeedometerClient"
+      }
+    ],
+    "modmenu": [
+      "net.adriantodt.speedometer.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "speedometer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.16.x"
+  }
+}

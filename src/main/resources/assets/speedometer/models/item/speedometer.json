@@ -1,0 +1,80 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "speedometer:item/speedometer_00"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "speedometer:speed": 1
+      },
+      "model": "speedometer:item/speedometer_01"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 2
+      },
+      "model": "speedometer:item/speedometer_02"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 3
+      },
+      "model": "speedometer:item/speedometer_03"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 4
+      },
+      "model": "speedometer:item/speedometer_04"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 5
+      },
+      "model": "speedometer:item/speedometer_05"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 6
+      },
+      "model": "speedometer:item/speedometer_06"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 7
+      },
+      "model": "speedometer:item/speedometer_07"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 8
+      },
+      "model": "speedometer:item/speedometer_08"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 9
+      },
+      "model": "speedometer:item/speedometer_09"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 10
+      },
+      "model": "speedometer:item/speedometer_10"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 11
+      },
+      "model": "speedometer:item/speedometer_11"
+    },
+    {
+      "predicate": {
+        "speedometer:speed": 12
+      },
+      "model": "speedometer:item/speedometer_12"
+    }
+  ]
+}
