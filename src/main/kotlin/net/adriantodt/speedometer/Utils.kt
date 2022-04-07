@@ -2,7 +2,7 @@ package net.adriantodt.speedometer
 
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroup
-import net.minecraft.nbt.CompoundTag
+import net.minecraft.nbt.NbtCompound
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
 
@@ -12,7 +12,7 @@ fun Identifier.item(item: Item) = apply {
     Registry.register(Registry.ITEM, this, item)
 }
 
-var CompoundTag.active
+var NbtCompound.active
     get() = getBoolean("Active")
     set(value) = putBoolean("Active", value)
 

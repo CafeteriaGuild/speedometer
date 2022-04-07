@@ -1,8 +1,8 @@
 package net.adriantodt.speedometer
 
-import me.sargunvohra.mcmods.autoconfig1u.AutoConfig
-import me.sargunvohra.mcmods.autoconfig1u.ConfigHolder
-import me.sargunvohra.mcmods.autoconfig1u.serializer.JanksonConfigSerializer
+import me.shedaniel.autoconfig.AutoConfig
+import me.shedaniel.autoconfig.ConfigHolder
+import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer
 import net.adriantodt.speedometer.data.SpeedometerConfig
 import net.adriantodt.speedometer.item.SpeedometerItem
 import net.fabricmc.api.ModInitializer

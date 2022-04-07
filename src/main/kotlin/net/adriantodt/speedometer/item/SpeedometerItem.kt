@@ -22,13 +22,13 @@ class SpeedometerItem(settings: Settings) : Item(settings) {
         val stack = user.getStackInHand(hand)
 
         val copy = stack.copy()
-        val tag = copy.orCreateTag
+        val tag = copy.orCreateNbt
         tag.active = !tag.active
         return TypedActionResult.success(copy)
     }
 
     override fun inventoryTick(stack: ItemStack, world: World, user: Entity, slot: Int, selected: Boolean) {
-        if (user is PlayerEntity && user is ExpandedLivingEntity && world.isClient && stack.tag?.active == true) {
+        if (user is PlayerEntity && user is ExpandedLivingEntity && world.isClient && stack.nbt?.active == true) {
             val unit = Speedometer.configHolder.config.velocityUnit
             val lastPos = user.lastPos
             if (lastPos != null) {
@@ -42,7 +42,7 @@ class SpeedometerItem(settings: Settings) : Item(settings) {
     override fun appendTooltip(stack: ItemStack, world: World?, tooltip: MutableList<Text>, ctx: TooltipContext) {
         tooltip += TranslatableText("$translationKey.description")
         tooltip += TranslatableText("tooltip.speedometer.configure_speedometer")
-        tooltip += if (stack.tag?.active == true) {
+        tooltip += if (stack.nbt?.active == true) {
             TranslatableText("tooltip.speedometer.deactivate_speedometer")
         } else {
             TranslatableText("tooltip.speedometer.activate_speedometer")
