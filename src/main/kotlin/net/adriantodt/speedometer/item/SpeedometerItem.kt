@@ -10,9 +10,7 @@ import net.minecraft.entity.Entity
 import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
-import net.minecraft.text.LiteralText
 import net.minecraft.text.Text
-import net.minecraft.text.TranslatableText
 import net.minecraft.util.Hand
 import net.minecraft.util.TypedActionResult
 import net.minecraft.world.World
@@ -33,19 +31,19 @@ class SpeedometerItem(settings: Settings) : Item(settings) {
             val lastPos = user.lastPos
             if (lastPos != null) {
                 val speed = lastPos.distanceTo(user.pos) * 20 * unit.multiplier
-                user.sendMessage(LiteralText("| %.4f %s |".format(speed, unit.suffix)), true)
+                user.sendMessage(Text.literal("| %.4f %s |".format(speed, unit.suffix)), true)
             }
         }
     }
 
     @Environment(EnvType.CLIENT)
     override fun appendTooltip(stack: ItemStack, world: World?, tooltip: MutableList<Text>, ctx: TooltipContext) {
-        tooltip += TranslatableText("$translationKey.description")
-        tooltip += TranslatableText("tooltip.speedometer.configure_speedometer")
+        tooltip += Text.translatable("$translationKey.description")
+        tooltip += Text.translatable("tooltip.speedometer.configure_speedometer")
         tooltip += if (stack.nbt?.active == true) {
-            TranslatableText("tooltip.speedometer.deactivate_speedometer")
+            Text.translatable("tooltip.speedometer.deactivate_speedometer")
         } else {
-            TranslatableText("tooltip.speedometer.activate_speedometer")
+            Text.translatable("tooltip.speedometer.activate_speedometer")
         }
     }
 }
