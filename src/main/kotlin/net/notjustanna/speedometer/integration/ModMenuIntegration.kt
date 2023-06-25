@@ -1,9 +1,9 @@
-package net.adriantodt.speedometer.integration
+package net.notjustanna.speedometer.integration
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory
 import com.terraformersmc.modmenu.api.ModMenuApi
 import me.shedaniel.autoconfig.AutoConfig
-import net.adriantodt.speedometer.data.SpeedometerConfig
+import net.notjustanna.speedometer.data.SpeedometerConfig
 import net.fabricmc.api.EnvType
 import net.fabricmc.api.Environment
 

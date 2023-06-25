@@ -1,10 +1,10 @@
-package net.adriantodt.speedometer
+package net.notjustanna.speedometer
 
 import me.shedaniel.autoconfig.AutoConfig
 import me.shedaniel.autoconfig.ConfigHolder
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer
-import net.adriantodt.speedometer.data.SpeedometerConfig
-import net.adriantodt.speedometer.item.SpeedometerItem
+import net.notjustanna.speedometer.data.SpeedometerConfig
+import net.notjustanna.speedometer.item.SpeedometerItem
 import net.fabricmc.api.ModInitializer
 import net.minecraft.util.Rarity
 import org.apache.logging.log4j.LogManager

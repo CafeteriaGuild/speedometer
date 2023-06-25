@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "net.adriantodt.speedometer.mixin",
+  "package": "net.notjustanna.speedometer.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "LivingEntityMixin"

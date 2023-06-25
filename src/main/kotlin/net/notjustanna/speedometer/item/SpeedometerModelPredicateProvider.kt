@@ -1,13 +1,12 @@
-package net.adriantodt.speedometer.item
+package net.notjustanna.speedometer.item
 
-import net.adriantodt.speedometer.ExpandedLivingEntity
-import net.minecraft.client.item.ModelPredicateProvider
-import net.minecraft.client.item.UnclampedModelPredicateProvider
+import net.notjustanna.speedometer.ExpandedLivingEntity
+import net.minecraft.client.item.ClampedModelPredicateProvider
 import net.minecraft.client.world.ClientWorld
 import net.minecraft.entity.LivingEntity
 import net.minecraft.item.ItemStack
 
-object SpeedometerModelPredicateProvider : UnclampedModelPredicateProvider {
+object SpeedometerModelPredicateProvider : ClampedModelPredicateProvider {
     override fun unclampedCall(stack: ItemStack?, world: ClientWorld?, entity: LivingEntity?, seed: Int): Float {
         if (entity == null) {
             return 0f

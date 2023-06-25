@@ -1,6 +1,6 @@
-package net.adriantodt.speedometer.mixin;
+package net.notjustanna.speedometer.mixin;
 
-import net.adriantodt.speedometer.ExpandedLivingEntity;
+import net.notjustanna.speedometer.ExpandedLivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;

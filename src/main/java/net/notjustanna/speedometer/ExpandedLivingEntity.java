@@ -1,4 +1,4 @@
-package net.adriantodt.speedometer;
+package net.notjustanna.speedometer;
 
 import net.minecraft.util.math.Vec3d;
 

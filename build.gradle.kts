@@ -9,7 +9,6 @@ plugins {
     id("org.jetbrains.kotlin.jvm")
 }
 repositories {
-    jcenter()
     maven { url = uri("https://maven.fabricmc.net/") }
     maven { url = uri("https://maven.terraformersmc.com/releases/") }
     maven { url = uri("https://maven.shedaniel.me") }

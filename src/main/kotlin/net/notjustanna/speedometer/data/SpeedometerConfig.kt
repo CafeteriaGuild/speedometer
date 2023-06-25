@@ -1,4 +1,4 @@
-package net.adriantodt.speedometer.data
+package net.notjustanna.speedometer.data
 
 import me.shedaniel.autoconfig.ConfigData
 import me.shedaniel.autoconfig.annotation.Config

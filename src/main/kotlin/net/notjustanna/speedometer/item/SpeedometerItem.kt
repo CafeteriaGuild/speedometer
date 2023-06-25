@@ -1,8 +1,8 @@
-package net.adriantodt.speedometer.item
+package net.notjustanna.speedometer.item
 
-import net.adriantodt.speedometer.ExpandedLivingEntity
-import net.adriantodt.speedometer.Speedometer
-import net.adriantodt.speedometer.active
+import net.notjustanna.speedometer.ExpandedLivingEntity
+import net.notjustanna.speedometer.Speedometer
+import net.notjustanna.speedometer.active
 import net.fabricmc.api.EnvType
 import net.fabricmc.api.Environment
 import net.minecraft.client.item.TooltipContext
