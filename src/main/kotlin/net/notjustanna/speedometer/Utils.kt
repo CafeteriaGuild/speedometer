@@ -16,4 +16,8 @@ var NbtCompound.active
     get() = getBoolean("Active")
     set(value) = putBoolean("Active", value)
 
+var NbtCompound.highestSpeed
+    get() = getDouble("HighestSpeed")
+    set(value) = putDouble("HighestSpeed", value)
+
 fun itemSettings(): Item.Settings = Item.Settings()//.group(ItemGroup.TRANSPORTATION)

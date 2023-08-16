@@ -9,5 +9,6 @@
   "item.speedometer.speedometer.description": "§7§o\"Gotta go fast!\"§r",
   "tooltip.speedometer.activate_speedometer": "§eUse para ativar§r",
   "tooltip.speedometer.deactivate_speedometer": "§eUse para desativar§r",
-  "tooltip.speedometer.configure_speedometer": "§9Configurável§r"
+  "tooltip.speedometer.configure_speedometer": "§9Configurável§r",
+  "tooltip.speedometer.highest_speed": "Velocidade máxima: %s"
 }
