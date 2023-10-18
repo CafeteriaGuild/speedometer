@@ -1,0 +1,13 @@
+{
+  "text.speedometer.velocityUnit.meters_per_second": "m/s",
+  "text.speedometer.velocityUnit.kilometers_per_hour": "km/h",
+  "text.speedometer.velocityUnit.miles_per_hour": "mph",
+  "text.autoconfig.speedometer.title": "速度表配置",
+  "text.autoconfig.speedometer.category.default": "通用",
+  "text.autoconfig.speedometer.option.velocityUnit": "速度表的速度单位",
+  "item.speedometer.speedometer": "速度表",
+  "item.speedometer.speedometer.description": "§7§o“我们还能更快！”§r",
+  "tooltip.speedometer.activate_speedometer": "§e使用以激活§r",
+  "tooltip.speedometer.deactivate_speedometer": "§e使用以停用§r",
+  "tooltip.speedometer.configure_speedometer": "§9在设置中是可以配置的§r"
+}
